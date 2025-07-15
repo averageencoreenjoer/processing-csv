@@ -9,7 +9,7 @@ python main.py --file tests/test_data/products.csv --where "price>500"
 <details>
 <summary>Скриншот вывода</summary>
 
-![Фильтрация](images/Снимок экрана 2025-07-15 в 03.05.13.png)
+![Фильтрация](https://github.com/averageencoreenjoer/processing-csv/raw/main/images/1.png)
 
 </details>
 
