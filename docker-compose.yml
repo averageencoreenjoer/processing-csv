@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    volumes:
+      - ./tests/test_data:/app/data
+    command: >
+      --file /app/data/products.csv
+      --where "price > 100"
+      --aggregate "rating=avg"

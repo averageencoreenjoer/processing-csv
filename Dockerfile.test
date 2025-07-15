@@ -1,0 +1,7 @@
+FROM csv-processor:latest
+
+RUN pip install pytest pytest-cov
+
+COPY tests/ ./tests
+
+CMD ["pytest", "tests/", "--cov=src", "--cov-report=term-missing"]
