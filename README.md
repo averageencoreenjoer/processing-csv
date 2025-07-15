@@ -24,7 +24,7 @@ python main.py --file tests/test_data/products.csv --aggregate "rating=avg"
 <details>
 <summary>Скриншот вывода</summary>
 
-![Агрегация](images/Снимок экрана 2025-07-15 в 03.05.28.png)
+![Агрегация](https://github.com/averageencoreenjoer/processing-csv/raw/main/images/2.png)
 
 </details>
 
@@ -39,7 +39,7 @@ python main.py --file tests/test_data/products.csv --where "brand=apple" --aggre
 <details>
 <summary>Скриншот вывода</summary>
 
-![Комбинированный запрос](images/Снимок экрана 2025-07-15 в 03.05.40.png)
+![Комбинированный запрос](https://github.com/averageencoreenjoer/processing-csv/raw/main/images/3.png)
 
 </details>
 
@@ -54,8 +54,8 @@ python main.py --file tests/test_data/products.csv --order-by "price=desc"
 <details>
 <summary>Скриншот вывода</summary>
 
-![Сортировка 1 часть](images/Снимок экрана 2025-07-15 в 03.06.40.png)
-![Сортировка 2 часть](images/Снимок экрана 2025-07-15 в 03.06.49.png)
+![Сортировка 1 часть](https://github.com/averageencoreenjoer/processing-csv/raw/main/images/4.png)
+![Сортировка 2 часть](https://github.com/averageencoreenjoer/processing-csv/raw/main/images/5.png)
 </details>
 
 ---
@@ -69,7 +69,7 @@ python main.py --file tests/test_data/products.csv --where "brand=samsung" --ord
 <details>
 <summary>Скриншот вывода</summary>
 
-![Фильтрация + сортировка](images/Снимок экрана 2025-07-15 в 03.07.04.png)
+![Фильтрация + сортировка](https://github.com/averageencoreenjoer/processing-csv/raw/main/images/6.png)
 
 </details>
 
@@ -84,8 +84,8 @@ pytest tests/ --cov=src --cov-report=term-missing
 <details>
 <summary>Скриншот вывода</summary>
 
-![pytest 1 часть](images/Снимок экрана 2025-07-15 в 03.07.23.png)
-![pytest 2 часть](images/Снимок экрана 2025-07-15 в 03.07.30.png)
+![pytest 1 часть](https://github.com/averageencoreenjoer/processing-csv/raw/main/images/7.png)
+![pytest 2 часть](https://github.com/averageencoreenjoer/processing-csv/raw/main/images/8.png)
 </details>
 
 ---
@@ -100,8 +100,8 @@ docker-compose up
 <details>
 <summary>Скриншот вывода</summary>
 
-![docker-compose up](images/Снимок экрана 2025-07-15 в 03.03.36.png)
-![docker-compose.yml](images/Снимок экрана 2025-07-15 в 03.04.02.png)
+![docker-compose up](https://github.com/averageencoreenjoer/processing-csv/raw/main/images/9.png)
+![docker-compose.yml](https://github.com/averageencoreenjoer/processing-csv/raw/main/images/10.png)
 </details>
 
 ---
